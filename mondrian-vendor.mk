@@ -1483,6 +1483,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/libmialgo_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmialgo_utils.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminkdescriptor.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/libminksocket_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminksocket_vendor.so \
+    vendor/xiaomi/mondrian/proprietary/vendor/lib/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmisight.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmlipay@1.1.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
@@ -2515,6 +2516,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmis_plugin_his.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_his.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmis_plugin_morpho.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_morpho.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmis_plugin_vidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmis_plugin_vidhance.so \
+    vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmisight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmisight.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmlipay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmlipay@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmlipay@1.1.so \
     vendor/xiaomi/mondrian/proprietary/vendor/lib64/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-hdcpmgr.so \
@@ -3031,8 +3033,8 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.gpudrivers.taro.api31 \
     powermodule_java \
     uimgbaservice \
-    HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     ImsRcsService \
     PowerOffAlarm \
     QCC \
