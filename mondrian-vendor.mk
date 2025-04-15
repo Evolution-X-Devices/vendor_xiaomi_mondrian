@@ -2148,8 +2148,6 @@ PRODUCT_PACKAGES += \
     libqvr_cam_cdsp_driver_stub \
     libqvr_cdsp_driver_stub \
     libqvr_eyetracking_plugin \
-    libqvr_hostcontroller_plugin \
-    libqvrservice \
     librelight_only \
     libremosaic_wrapper \
     libremosaiclib \
@@ -2479,7 +2477,6 @@ PRODUCT_PACKAGES += \
     dolbycodec2 \
     qconfigservice \
     qcrilNrd \
-    qvrservice \
     sxrservice \
     vendor.display.color@1.0-service \
     vendor.dolby.hardware.dms@2.0-service \
