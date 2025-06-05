@@ -132,7 +132,11 @@ function configure_memory_parameters() {
 	configure_zram_parameters
 	configure_read_ahead_kb_values
 	echo 100 > /proc/sys/vm/swappiness
-	echo 1 > /proc/sys/vm/watermark_scale_factor
+	if [ "$ProductName" == "marble" ]; then
+		echo 43 > /proc/sys/vm/watermark_scale_factor
+	else
+		echo 1 > /proc/sys/vm/watermark_scale_factor
+	fi
 
     echo 0 > /proc/sys/vm/watermark_boost_factor
 
