@@ -19014,6 +19014,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.sensors@2.0-ScopedWakelock",
                 "android.frameworks.sensorservice@1.0",
                 "libjsoncpp",
+                "libmisight_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -19039,6 +19040,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.sensors@2.0-ScopedWakelock",
                 "android.frameworks.sensorservice@1.0",
                 "libjsoncpp",
+                "libmisight_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -37121,6 +37123,7 @@ cc_prebuilt_library_shared {
                 "libdisplayconfig.qti",
                 "libtinyxml2",
                 "libjsoncpp",
+                "libmisight_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -49146,9 +49149,9 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.security.keymint-service-qti-rkp.xml",
+    name: "android.hardware.security.keymint-service-qti.xml",
     owner: "xiaomi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti-rkp.xml",
+    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
